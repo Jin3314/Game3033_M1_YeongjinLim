@@ -217,7 +217,7 @@ public class GunController : MonoBehaviour
         {
             muzzleoriginPos = currentGun.muzzleFlash.transform.localPosition;
             audiosource = GetComponent<AudioSource>();
-            originPos = Vector3.zero;
+            //originPos = Vector3.zero;
             theCrosshair = FindObjectOfType<Crosshair>();
             CharMove = FindObjectOfType<CharactorMove>();
         WeaponManager.currentWeapon = currentGun.GetComponent<Transform>();
